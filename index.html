@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"/>
     <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
 </head>
 
@@ -32,7 +31,10 @@
             <li><a href="#project">Projets</a></li>
             <li><a href="#certificates">Certifications</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><button class="resume-button" style="overflow: hidden;"> <a href="docs/monCV.pdf" download="docs/monCV.pdf">Mon CV</a></button></li>
+            <li>
+                <button class="resume-button" style="overflow: hidden;"><a href="docs/monCV.pdf"
+                                                                           download="docs/monCV.pdf">Mon CV</a></button>
+            </li>
         </ul>
     </nav>
     <div class="ContentImage" style="color: aliceblue;" id="about">
@@ -41,204 +43,233 @@
                 <h1>Bonjour, je suis </h1>
                 <h1 class="name" contenteditable style="outline: none;">Paco Garcia</h1>
                 <h3>Je suis, <span></span></h3>
-                <p>... désireux d'appliquer mes compétences dans divers domaines, me poussant continuellement à élargir mes
-                    connaissances et mes capacités. Mon dévouement à l'excellence garantit que j'aborde chaque tâche avec une
-                    attention méticuleuse aux détails et une forte éthique de travail. Je suis confiant dans ma capacité à apporter
+                <p>... désireux d'appliquer mes compétences dans divers domaines, me poussant continuellement à élargir
+                    mes
+                    connaissances et mes capacités. Mon dévouement à l'excellence garantit que j'aborde chaque tâche
+                    avec une
+                    attention méticuleuse aux détails et une forte éthique de travail. Je suis confiant dans ma capacité
+                    à apporter
                     des contributions significatives à tout projet que j'entreprends.</p>
-                <div class="home-social">
-                    <ul>
-                        <li><a href="https://www.linkedin.com/in/pacogarcia10/">
-                            <i style="font-size:100px"  class="devicon-linkedin-plain"></i>
-                        </a></li>
-                        <li><a href="https://github.com/GarciaPaco">
-                            <i style="font-size:100px" class="devicon-github-original-wordmark"></i>
-                        </a></li>
-                    </ul>
+                <div class="project-container">
+                    <div class="home-social">
+                        <ul>
+                            <li class="resizeme"><a href="https://www.linkedin.com/in/pacogarcia10/">
+                                <i style="font-size:100px" class="devicon-linkedin-plain"></i>
+                            </a></li>
+                            <li class="resizeme"><a href="https://github.com/GarciaPaco">
+                                <i style="font-size:100px" class="devicon-github-original-wordmark"></i>
+                            </a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="Image"><img style="border-radius: 50%; width: 70%; height: auto;" src="images/moi.jpg" alt="portrait"></div>
-
+            <div class="Image"><img style="border-radius: 50%; width: 70%; height: auto;" src="images/moi.jpg"
+                                    alt="portrait"></div>
         </section>
     </div>
-    <div class="skills" style="color: aliceblue;" id="skills">
-        <h2 class="skills-title">Compétence</h2>
-        <p class="skill-content">Les outils et technologies spécifiques au développement web que j'utilise : </p>
-        <div class="webTools">
-            <h2 style="padding: 3%;">Front-End</h2> <br>
-            <ul>
-                <i style="font-size:120px;" class="devicon-react-original-wordmark colored"></i>
-                <img style="height:auto; width:120px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-                <img style="height:auto; width:120px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original-wordmark.svg" />
-            </ul>
+    <section class="skillsSection">
+        <div class="skills" style="color: aliceblue;" id="skills">
+            <h2 class="skills-title">Compétences</h2>
+            <p class="skill-content">Les outils et technologies spécifiques au développement web que j'utilise : </p>
+            <div class="webTools">
+                <h2 style="padding: 3%;">Front-End</h2> <br>
+                <ul>
+                    <i style="font-size:120px;" class="devicon-react-original-wordmark colored"></i>
+                    <img style="height:auto; width:120px;"
+                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>
+                    <img style="height:auto; width:120px;"
+                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original-wordmark.svg"/>
+                </ul>
+            </div>
+            <div class="programming">
+                <h2 style="padding: 3%;">Back-End</h2> <br>
+                <ul>
+                    <i style="font-size:120px;" class="devicon-php-plain"></i>
+                    <i style="font-size:120px;" class="devicon-symfony-original-wordmark"></i>
+                    <i style="font-size:120px;" class="devicon-postgresql-plain-wordmark"></i>
+                </ul>
+            </div>
+            <div class="dataBase">
+                <h2 style="padding: 3%;">Outils</h2> <br>
+                <ul>
+                    <i style="font-size:120px;" class="devicon-docker-plain-wordmark"></i>
+                    <i style="font-size:120px;" class="devicon-postman-plain"></i>
+                    <i style="font-size:120px;" class="devicon-git-plain-wordmark"></i>
+                </ul>
+            </div>
         </div>
-        <div class="programming">
-            <h2 style="padding: 3%;">Back-End</h2> <br>
-            <ul>
-                <i style="font-size:120px;" class="devicon-php-plain"></i>
-                <i style="font-size:120px;" class="devicon-symfony-original-wordmark"></i>
-                <i style="font-size:120px;" class="devicon-postgresql-plain-wordmark"></i>
-            </ul>
-        </div>
-        <div class="dataBase">
-            <h2 style="padding: 3%;">Outils</h2> <br>
-            <ul>
-                <i style="font-size:120px;" class="devicon-docker-plain-wordmark"></i>
-                <i style="font-size:120px;" class="devicon-postman-plain"></i>
-                <i style="font-size:120px;" class="devicon-git-plain-wordmark"></i>
-            </ul>
-        </div>
-    </div>
-    <div class="experience" style="color: #ffffff;" >
-        <h2 class="experience-tittle" style="margin-bottom:3% ;" id="experience">Experience</h2>
-        <div class="experience1 start">
-            <div class="date">
+        <div class="experience" style="color: #ffffff;">
+            <h2 class="experience-tittle" style="margin-bottom:3% ;" id="experience">Experiences</h2>
+            <div class="experience1 start">
+                <div class="date">
                     <span class="icon-org">
                         <i class="fa-solid fa-building fa-2xl" style="color: #63E6BE;"></i>
                         <span style="margin-left: 8px;">IUT de Troyes</span>
                     </span>
-                <span style="color: #63E6BE;">2021 - 2024</span>
+                    <span style="color: #63E6BE;">2021 - 2024</span>
+                </div>
+                <div class="experienceInfo">Diplôme professionnel de niveau 6 (bac + 3), le BUT MMI (métiers du
+                    multimédia et de l’Internet)
+                    forme à des activités relevant de domaines variés, allant de la conception de sites Internet à la
+                    gestion de communautés
+                    sur les réseaux sociaux, en passant par la production de produits multimédias (jeux vidéo,
+                    applications mobiles, etc.)
+                    ou le développement de services Web.
+                </div>
             </div>
-            <div class="experienceInfo">Diplôme professionnel de niveau 6 (bac + 3), le BUT MMI (métiers du multimédia et de l’Internet)
-                forme à des activités relevant de domaines variés, allant de la conception de sites Internet à la gestion de communautés
-                sur les réseaux sociaux, en passant par la production de produits multimédias (jeux vidéo, applications mobiles, etc.)
-                ou le développement de services Web.</div>
-        </div>
 
-        <div class="experience2 end">
-            <div class="date">
+            <div class="experience2 end">
+                <div class="date">
                 <span class="icon-org">
                         <i class="fa-regular fa-building fa-2xl" style="color: #63E6BE;"></i>
                         <span style="margin-left: 8px;">SDDEA</span>
                     </span>
-                <div class="internship">Alternance</div>
+                    <div class="internship">Alternance</div>
 
-                <span style="color: #63E6BE;">2022 - 2024</span> <br>
+                    <span style="color: #63E6BE;">2022 - 2024</span> <br>
+                </div>
+                <div class="experienceInfo">
+                    Acteurs majeurs sur le département de l’Aube, le SDDEA et sa Régie interviennent sur cinq
+                    compétences :
+                    l’eau potable, l’assainissement collectif, l’assainissement non collectif, la GeMAPI
+                    (Gestion des Milieux Aquatiques et Prévention des Inondations) et la démoustication.<br><br>
+                    Deux années d'alternances au sein du service informatique en tant que développeur Back-End.
+                </div>
+                <div class="view"><a href="https://www.sddea.fr/"><span class="ViewContent">View &nbsp;</span><i
+                        class="fa-solid fa-square-arrow-up-right" style="color: #ffffff;"></i></a></div>
             </div>
-            <div class="experienceInfo">
-                Acteurs majeurs sur le département de l’Aube, le SDDEA et sa Régie interviennent sur cinq compétences :
-                l’eau potable, l’assainissement collectif, l’assainissement non collectif, la GeMAPI
-                (Gestion des Milieux Aquatiques et Prévention des  Inondations) et la démoustication.<br><br>
-                Deux années d'alternances au sein du service informatique en tant que développeur Back-End.
-               </div>
-            <div class="view"><a href="https://www.sddea.fr/"><span class="ViewContent">View &nbsp;</span><i
-                    class="fa-solid fa-square-arrow-up-right" style="color: #ffffff;"></i></a></div>
-        </div>
-        <div class="experience3 start">
-            <div class="date">
+            <div class="experience3 start">
+                <div class="date">
 
                     <span class="icon-org">
                         <div class="internship">Mission Japan &nbsp;</div>
                         <i class="fa-brands fa-medium" style="color: #63E6BE;"></i>
                     </span>
-                <span style="color: #63E6BE;">2024 - 2025</span> <br>
+                    <span style="color: #63E6BE;">2024 - 2025</span> <br>
 
 
+                </div>
+                <div class="experienceInfo">Une année de césure avec un visa Vacance-Travail d'un an. Découverte du
+                    pays, de sa culture et de ses traditions.
+                    Première occasion de prospecter pour évoluer vers un visa professionnel dans le développement web.
+                    On y trouve beaucoup
+                    de société internationale (Rakuten par exemple) qui offre des emplois aux étrangers.
+                </div>
             </div>
-            <div class="experienceInfo">Une année de césure avec un visa Vacance-Travail d'un an. Découverte du pays, de sa culture et de ses traditions.
-            Première occasion de prospecter pour évoluer vers un visa professionnel dans le développement web. On y trouve beaucoup
-            de société internationale (Rakuten par exemple) qui offre des emplois aux étrangers.</div>
         </div>
-    </div>
-    <div class="project" id="project" style="color: #ffffff;" >
-        <h2 class="project-tittle" style="margin-bottom:8%;justify-content: center;align-items: center;text-align: center;">PROJECTS</h2>
-        <div class="project-container">
-            <div class="wrapper">
-                <div class="banner-image"></div>
-                <h2 style="font-family: 'Righteous', sans-serif;
+    </section>
+    <section class="projectSection">
+        <div class="project" id="project" style="color: #ffffff;">
+            <h2 class="project-tittle"
+                style="margin-bottom:8%;justify-content: center;align-items: center;text-align: center;">Projets</h2>
+            <div class="project-container">
+                <div class="wrapper">
+                    <div class="banner-image"></div>
+                    <h2 style="font-family: 'Righteous', sans-serif;
                   color: rgba(255, 255, 255, 0.98);
                   text-transform: uppercase;
                   font-size: 2rem;
                   margin: 20px 0;">Pokedex</h2>
-                <p style="color: #fff;
+                    <p style="color: #fff;
                   font-family: 'Lato', sans-serif;
                   font-size: 1rem;
                   line-height: 1.5;
-                  letter-spacing: 1px;">Application mobile pour Android qui réplique un Pokédex à l'aide de React Native</p>
+                  letter-spacing: 1px;">Application mobile pour Android qui réplique un Pokédex à l'aide de React
+                        Native</p>
+                </div>
+                <div class="button-wrapper">
+                    <button class="btn fill"><a href="https://github.com/GarciaPaco/ReactNativFirstApp"
+                                                style="text-decoration: none;color: #fcfcfc;">GITHUB</a></button>
+                </div>
             </div>
-            <div class="button-wrapper">
-                <button class="btn fill"><a href="https://github.com/GarciaPaco/ReactNativFirstApp" style="text-decoration: none;color: #fcfcfc;">GITHUB</a></button>
-            </div>
-        </div>
-        <div class="project-container">
-            <div class="wrapper">
-                <div class="banner-image1"></div>
-                <h2 style="font-family: 'Righteous', sans-serif;
+            <div class="project-container">
+                <div class="wrapper">
+                    <div class="banner-image1"></div>
+                    <h2 style="font-family: 'Righteous', sans-serif;
                   color: rgba(255, 255, 255, 0.98);
                   text-transform: uppercase;
                   font-size: 2rem;
                   margin: 20px 0;">Portfolio</h2>
-                <p style="color: #fff;
+                    <p style="color: #fff;
                   font-family: 'Lato', sans-serif;
                   font-size: 1rem;
                   line-height: 1.5;
-                  letter-spacing: 1px;">Repository de ce portfolio professionnel responsive fais en HTML, CSS et JS natif</p>
-            </div>
-            <div class="button-wrapper">
-                <button class="btn fill"><a href="https://github.com/GarciaPaco/PortfolioPro" style="text-decoration: none;color: #fcfcfc;">GITHUB</a></button>
-            </div>
-        </div>
-
-    </div>
-    <div class="Certification" style="color: #ffffff;" id="certificates">
-        <h2 class="project-tittle" style="justify-content: center;align-items: center;text-align: center; margin-block: 5%;">Certification</h2>
-        <div class="slider">
-            <div class="slides">
-                <!-- Each slide -->
-                <div class="slide">
-                    <img src="images/opquast.png" alt="Score de 800 sur 1000 à la certification Opquast">
-                    <div class="text">Score de 800 sur 1000</div>
+                  letter-spacing: 1px;">Repository de ce portfolio professionnel responsive fais en HTML, CSS et JS
+                        natif</p>
                 </div>
-                <div class="slide">
-                    <img src="images/grade.png" alt="Barème Opquast">
-                    <div class="text">Barème Opquast</div>
+                <div class="button-wrapper">
+                    <button class="btn fill"><a href="https://github.com/GarciaPaco/PortfolioPro"
+                                                style="text-decoration: none;color: #fcfcfc;">GITHUB</a></button>
                 </div>
             </div>
-            <!-- Navigation buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </section>
+    <section class="certificationSection">
+        <div class="Certification" style="color: #ffffff;" id="certificates">
+            <h2 class="project-tittle"
+                style="justify-content: center;align-items: center;text-align: center; margin-block: 5%;">
+                Certification</h2>
+            <div class="slider">
+                <div class="slides">
+                    <!-- Each slide -->
+                    <div class="slide">
+                        <img src="images/opquast.png" alt="Score de 800 sur 1000 à la certification Opquast">
+                        <div class="text">Score de 800 sur 1000</div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/grade.png" alt="Barème Opquast">
+                        <div class="text">Barème Opquast</div>
+                    </div>
+                </div>
+                <!-- Navigation buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-            <!-- Indicator dots -->
-            <div class="dot-container">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
+                <!-- Indicator dots -->
+                <div class="dot-container">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="contact" id="contact" id="hireme">
-        <div class="contact-container">
-            <h2 style="color: #ffffff;">Me contacter</h2>
-            <div class="card">
+    </section>
+    <section class="contactSection">
+        <div class="contact" id="contact" id="hireme">
+            <div class="contact-container">
+                <h2 style="color: #ffffff;">Me contacter</h2>
+                <div class="card">
 
-                <p>Si vous avez des questions, n'hésitez pas à me contacter en utilisant le formulaire ci-dessous.</p>
-                <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
-                    <input type="hidden" name="access_key" value="">
-                    <div class="form-group">
-                        <label for="name">Nom</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
+                    <p>Si vous avez des questions, n'hésitez pas à me contacter en utilisant le formulaire
+                        ci-dessous.</p>
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                        <input type="hidden" name="access_key" value="">
+                        <div class="form-group">
+                            <label for="name">Nom</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
 
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" disabled><strike>Maintenance du SMTP</strike></button>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" disabled><strike>Maintenance du SMTP</strike></button>
 
 
-                </form>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <div class="copyRights">
+            <div class="copy">&copy Paco Garcia</div>
+            <div class="design"><span style="color: #63E6BE;">Design inspiré par</span> &nbsp;&nbsp;&nbsp;Kishore Lavuri
             </div>
         </div>
-
-    </div>
-    <hr>
-    <div class="copyRights">
-        <div class="copy">&copy Paco Garcia</div>
-        <div class="design"><span style="color: #63E6BE;">Design inspiré par</span> &nbsp;&nbsp;&nbsp;Kishore Lavuri</div>
-    </div>
 </div>
 
 
