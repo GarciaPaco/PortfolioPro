@@ -439,7 +439,7 @@ nav {
 .experience {
     display: flex;
     flex-direction: column;
-    margin: 5%;
+    padding: 5%;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -549,7 +549,7 @@ nav {
 .project{
     display: flex;
     flex-wrap: wrap;
-    margin: 5%;
+    padding: 5%;
     justify-content: space-around;
 }
 .project-container {
