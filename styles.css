@@ -390,7 +390,6 @@ nav {
 
 .skills-title, .experience-tittle, .project-tittle {
     width: 100%;
-    margin: 20px;
     font-size: 2em;
     font-weight: bold;
     color: #fff;
@@ -584,7 +583,7 @@ nav {
     border: 1px solid rgba(255, 255, 255, 0.255);
 }
 .banner-image1 {
-    background-image: url("images/pokehome.png");
+    background-image: url("images/portfolio.png");
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -863,8 +862,18 @@ nav {
 }
 /* certification */
 .Certification{
-    margin: 10%;
+    /*margin: 10%;*/
     height: 100%;
+}
+
+.skills-title {
+    margin-top:35px;
+    margin-bottom: 25px;
+}
+
+.project-tittle {
+    margin-top:35px;
+    margin-bottom: 25px;
 }
 
 .slider {
