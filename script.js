@@ -16,7 +16,7 @@ hamburger.addEventListener('click', () => {
 
 document.addEventListener('DOMContentLoaded', function() {
     var options = {
-        strings: ["Web Developer", "Content Writer"],
+        strings: ["Développeur Web", "Créatif", "Curieux", "Autodidacte"],
         typeSpeed: 100,
         backSpeed: 50,
         backDelay: 1000,
@@ -26,7 +26,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 let slideIndex = 1;
-let slideInterval = setInterval(() => plusSlides(1), 3000); // Change slide every 3 seconds
 
 function plusSlides(n) {
     showSlides(slideIndex += n);
